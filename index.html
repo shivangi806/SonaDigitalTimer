@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="C:\Users\shiva\Desktop\HTML docs\Java_script">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+</head>
+<body class="body">
+
+    <!-- <p id="th">Click the button to display after changing the hour</p>
+    <button onclick="myFunction()">Try it </button> -->
+    <div class="logo"><h1>ⓈⓄⓃⒶ ᴰⁱᵍⁱᵗᵃˡ ᵀⁱᵐᵉʳ</h1></div>
+    
+    <button>Date</button>
+    <p id="date"> </p>
+    <p id="time"></p>
+    
+    <button onclick="document.getElementById('demo').innerHTML=Date()">Time</button>
+    <p id="demo"></p>
+    <!-- <p id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">I am working on a flyback converter operating in CCM. I want to use a SiC diode on the secondary to minimize the Reverse Recovery effect and the losses it induces in the mosfet. However, when I simulate the converter in LTSpice, I get huge current oscilations when the diode turns off. Please see the attached image.
+        What is causing t</p> -->
+
+
+    <!-- <label for="">Your name</label>
+    <input type="text"><br><br>
+    <label for="">Choose your date of birth</label>
+    <input type="date"><br><br>
+    <label for="">Choose your language</label>
+    <select name="language" id="language" onchange="selectElement()"> <option value="">Select one</option>
+        <option value="cpp">C++</option>
+        <option value="">Python</option>
+        <option value="">Java</option>
+        <option value="">C</option></select> -->
+        <br>
+        
+        <div id="stopwatch">
+            <h3>00:00:00</h3> 
+            
+         </div>
+         <img src="https://cdn-icons-png.flaticon.com/512/3095/3095036.png" alt=""width="100px"><br><br>
+         <div><ul id="buttons">
+            <li><button onclick="startTimer()">Start</button></li>
+            <li><button onclick="stopTimer()">Stop</button></li>
+
+            <li><button onclick="resetTimer()">Reset</button></li>
+        </ul></div>
+    
+        <!-- <script src="/index.js"></script> -->
+        <script src="script.js"></script>
+
+        
+        <!-- <script>
+        const selectElement = () => {
+            const inputChange=document.getElementById('language').value
+        }
+
+
+        </script> -->
+       
+</body> 
+<!-- <script src="test.js"></script> -->
+
+<script>
+   function mouseDown(){
+       document.getElementById("myP").style.color='red';
+   }
+   function mouseUp(){
+       document.getElementById("myP").style.color='blue';
+   }
+
+   var date=new Date().toLocaleDateString();
+    document.getElementById("date").innerHTML=date;
+
+    setInterval(myTimer, 1000);
+
+
+// function myTimer() {
+//   const date = new Date();
+// document.getElementById("time").innerHTML = date.toLocaleTimeString();
+// }
+
+    // (function myFunction(){
+        
+    //     setInterval() {
+    //     var d= new Date().toLocaleTimeString();
+    //     document.getElementById("demo").innerHTML=d;
+    //     } , 1000)
+
+        
+        
+
+
+
+
+
+</script>
+    
+
+</html>
+
+
+

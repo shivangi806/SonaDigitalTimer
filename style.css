@@ -1,0 +1,38 @@
+.body{
+    background: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    background-image: url();
+    background-repeat: no-repeat;
+ }
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+#stopwatch {
+    font-size: 50px;
+    /* margin-left:650px ;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%); */
+    background-color:#FF9300;
+    border-radius: 50px;
+    
+    
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
+.logo{
+    font-size: 50px;
+    color:#FF9300;
+    margin-top: 20px;
+}
